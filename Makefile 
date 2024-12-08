@@ -1,0 +1,10 @@
+
+OUTPUT = tutor
+
+# Default target
+all:
+	gcc *.c -o $(OUTPUT)
+
+# Clean up
+clean:
+	rm -f *.o
